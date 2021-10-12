@@ -1,0 +1,253 @@
+
+/* About  */
+@media (max-width:1163px) {
+    .about-inside-left {
+        padding-right: 35px;
+        padding-left: 15px;
+    }
+    .about-inside-right{
+        padding-right: 15px;
+    }
+    .about-last-div{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    
+}
+@media (max-width:765px) {
+    .about-inside-left p {
+        font-size: 18px;}
+
+    .about-last{
+        margin-bottom: 50px;
+    }
+    .services {
+        background-color: #E9F1FF;
+        margin-top: 50px;}
+}
+@media (max-width:650px) {
+    .about-inside{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-inside-left{
+        margin-bottom: 70px;
+    }
+}
+@media (max-width:400px) {
+    .col-6 {
+        flex: 0 0 auto;
+        width: 100%;}
+}
+
+
+
+
+/* Services  */
+
+@media (max-width:1163px) {
+    .Thumbnails{
+        font-size: 23px !important;
+    }
+
+}
+@media (max-width:993px) {
+    .service-cont{
+        max-width: 850px;
+    }
+
+}
+@media (max-width:840px) {
+    .service-cont{
+        max-width:800px;
+    }
+
+}
+@media (max-width:800px) {
+    .service-cont{
+        max-width:750px;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .g-2{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+/* Testimonials  */
+
+
+@media (max-width:600px) { 
+    .testimonial {
+        margin-top: 40px;
+    }
+}
+@media (max-width:765px) { 
+    .testi-main-box i {
+    font-size: 79px;
+    }
+}
+@media (max-width:1240px) { 
+    .testi-content-box{
+        width: 62% ;
+    }
+}
+@media (max-width:1024px) { 
+    .testi-content-box{
+        width: 60% ;
+    }
+    .testi-content-box p{
+        font-size:18px;
+    }
+    .div-testimonial img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width:890px) { 
+    .testi-main-box {
+        width: 80%;
+        /* margin: auto; */
+    }
+}
+
+@media (max-width:767px) { 
+    .div-testimonial{
+        flex-direction: column-reverse;
+    }
+    .testi-content-box{
+        width:100% ;
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:550px) { 
+    .col-4 {
+        width: 100%;
+    }
+    .testi-img-box{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .testi-main-box p {
+        padding-right: 10px;
+    }
+}
+@media (max-width:430px) { 
+    .testi-content-box p {
+        font-size: 16px;
+    }
+}
+@media (max-width:700px) { 
+    .testimonial {
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+/* Contact  */
+@media (max-width:1286px) {
+    .container-contact {
+        width: 88%;
+        }
+}
+@media (max-width:1066px) {
+    .container-contact {
+        width: 95%;
+    }
+    .contact-left{
+        width: 40%;
+        /* width: 35%; -- > Just edited */  
+    }
+}
+@media (max-width:960px) {
+    .container-contact {
+        flex-direction: column;
+        align-items:center ;
+        height: 1000px;
+    }
+    .contact-left{
+        width: 367px;
+        /* margin: auto; */
+        margin-top: 50px;
+    }
+    .contact-right{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-box{
+        width:100%;
+        margin: auto;
+    }
+    .form{
+        margin: auto;
+        
+    }
+    .contact hr {
+        margin-bottom: 0px;}
+}
+
+
+@media (max-width:540px) {
+    .container-form {
+        width: 440px;
+    }
+}
+@media (max-width:470px) {
+    .container-form {
+        width: 400px;
+    }
+}
+@media (max-width:430px) {
+    .container-form {
+        width: 340px;
+    }
+    .contact-left i {
+        font-size: 43px;
+    }
+    .contact-item{
+        font-size: 18px;
+    }
+    .contact-left{
+        width: 320px;
+    }
+    .contact {
+        padding-bottom: 57px;
+    }
+}
+@media (max-width:370px) {
+    .container-form {
+        width: 300px;
+    }
+}
+
+
+
+/* Footer */
+@media (max-width:596px) {
+    .footer-main h5{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 17px;
+    }
+}
+@media (max-width:431px) {
+    .footer-main h5{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+}

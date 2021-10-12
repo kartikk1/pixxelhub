@@ -1,0 +1,184 @@
+.services{
+    background-color: #E9F1FF;
+    margin-top: 100px;
+}
+
+.container-services h1{
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bolder;
+    
+}
+.service .p-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 333px;
+    box-shadow: 0 0 10px 2px #0dca91;
+}
+.service .p-3 i{
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom:20px;
+}
+.service .p-3 p{
+    padding:10px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service .p-3 h3{
+   
+    text-align: center;
+}
+.container-services hr{
+    width: 170px;
+    height: 5px;
+    color: #0dca91;
+    margin: 4px auto;
+    opacity: 100%;
+    margin-bottom: 80px;
+}
+
+.service-last{
+    margin-bottom: 100px;
+}
+.service{
+    height: 333px;
+}
+.service-cont{
+    padding-bottom: 100px;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    height: 333px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: #0dca91;
+    /* color: black; */
+    color: white;
+    transform: rotateY(180deg);
+
+    box-shadow: 0 0 10px 2px #0dca91;
+}
+
+.flip-card-back h3 {
+    /* margin-top: 40px; */
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.flip-card-back p {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+@media (min-width:800px) and (max-width:1200px){
+    .flip-card-back h3 {
+        /* margin-top: 20px; */
+        margin-bottom: 19px;
+        font-weight: bold;
+        font-size: 26px;
+    }
+    
+    .flip-card-back p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 16px;
+    }
+}
+@media(min-width:800px) and (max-width:998px){
+    .flip-card-back h3 {
+        /* margin-top: 20px; */
+        margin-bottom: 19px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+    .flip-card-back p {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 15px;
+    }
+}
+@media (max-width:405px){
+    .flip-card-back h3 {
+        /* margin-top: 25px; */
+        margin-bottom: 22px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .flip-card-back p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 17px;
+    }
+}
+@media (max-width:360px){
+    .flip-card-back p {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+}
+@media(min-width:551px) and (max-width:742px){
+    .flip-card-back h3 {
+        /* margin-top: 20px; */
+        margin-bottom: 19px;
+        font-weight: bold;
+        font-size: 23px;
+    }
+    
+    .flip-card-back p {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 15px;
+    }
+}
+
+
+.flip-card-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
