@@ -240,6 +240,7 @@ img{
     .gallery{
     columns: 2;
     column-gap: 20px;
+    width: 90%;
 }
 }
 .show{
@@ -251,6 +252,7 @@ img{
     .gallery{
     columns: 1;
     column-gap: 40px;
+    width: 95%;
 }
 }
 
